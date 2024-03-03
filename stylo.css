@@ -123,9 +123,11 @@ footer{
         width: auto;
     }
 
-
     .header {
         width: auto;
     }
 
+    .image-inside{
+        width: 100px;
+    }
 }
