@@ -117,16 +117,7 @@ footer{
     transform: translate(10px, 10px);
 }
 
-@media screen and (max-width: 500px){
-
-    .main-container {
-        width: auto;
-    }
-
-    .header {
-        width: auto;
-    }
-
+@media screen and (max-width: 600px){
     .image-inside{
-        width: 100px;
+        width: 200px;
 }
