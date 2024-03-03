@@ -38,35 +38,13 @@ body {
 
 .main-container {
     background-color: aliceblue;
+    justify-content: center;
     text-align: center;
     display: flex;
-    margin: 40px 100px 100px 100px;
+    margin: 42px 100px 100px 100px;
     gap: 150px;
     border: 1px solid rgb(0, 0, 0);
     flex-wrap: wrap;
-}
-
-.content-box {
-    width: 100px;
-    height: 300px;
-    margin: 20px;
-    padding: 10px 0px 10px 0px;
-    border-radius: 3px;
-    border-style:dotted;
-}
-
-.content-list {
-    text-align: left;
-    list-style-type: none;
-    justify-content: center;
-}
-
-.content-item{
-    margin: 20px 20px 20px 20px;
-    font-family: "Madimi One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 15px;
 }
 
 .header {
