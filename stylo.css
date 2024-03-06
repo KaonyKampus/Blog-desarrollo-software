@@ -12,13 +12,25 @@ body {
 }
 
 .nav-bar {
- background-color: rgba(240, 109, 1, 0.863);
- padding: 10px;
- text-decoration: none;
- border: 1px solid black;
- position: fixed;
- top: 0;
- width: 100%;
+    background-color: rgba(240, 109, 1, 0.863);
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.logo-box {
+    display: flex;
+    float: left;
+    padding-left: 30px;
+    justify-content: center;
+}
+
+.logo-image {
+    width: 25px;
 }
 
 .nav-list{
@@ -46,7 +58,7 @@ body {
     justify-content: center;
     text-align: center;
     display: flex;
-    margin: 42px 100px 100px 100px;
+    margin: 44.5px 100px 100px 100px;
     gap: 150px;
     border: 1px solid rgb(0, 0, 0);
 }
@@ -128,6 +140,13 @@ footer{
 
 /***************medida dispositivos de 600px*******************/
 @media  (max-width: 600px){
+    .logo-box {
+        display: flex;
+        float: left;
+        padding-left: 0px;
+        justify-content: center;
+    }
+
     .nav-list{
         display: flex;
         justify-content: center;
@@ -141,7 +160,6 @@ footer{
 
     .list-item {
         text-decoration: none;
-        border: 1px solid black;
     }
 
     .image-inside{
@@ -168,6 +186,12 @@ footer{
 
 /***************medida dispositivos de 500px*******************/
 @media  (max-width: 500px){
+    .logo-box {
+        display: flex;
+        float: left;
+        padding-left: 0px;
+        justify-content: center;
+    }
     .nav-list{
         display: flex;
         justify-content: center;
@@ -181,7 +205,6 @@ footer{
 
     .list-item {
         text-decoration: none;
-        border: 1px solid black;
     }
 
     .image-inside{
@@ -209,6 +232,12 @@ footer{
 
 /***************medida dispositivos de 400px*******************/
 @media (max-width: 400px){
+    .logo-box {
+        display: flex;
+        float: left;
+        padding-left: 0px;
+        justify-content: center;
+    }
     .nav-list{
         display: flex;
         justify-content: center;
@@ -221,7 +250,6 @@ footer{
     }
     .list-item {
         text-decoration: none;
-        border: 1px solid black;
     }
     .image-inside{
         width: 140px;
@@ -246,6 +274,12 @@ footer{
 
 /***************medida dispositivos de 300px*******************/
 @media (max-width: 300px){
+    .logo-box {
+        display: flex;
+        float: left;
+        padding-left: 0px;
+        justify-content: center;
+    }
     .nav-list{
         display: flex;
         justify-content: center;
@@ -258,7 +292,6 @@ footer{
     }
     .list-item {
         text-decoration: none;
-        border: 1px solid black;
     }
 
     .image-inside{
@@ -284,6 +317,12 @@ footer{
 
 /***************medida dispositivos de 200px*******************/
 @media (max-width: 200px){
+    .logo-box {
+        display: flex;
+        float: left;
+        padding-left: 0px;
+        justify-content: center;
+    }
     .nav-list{
         display: flex;
         justify-content: center;
@@ -296,7 +335,6 @@ footer{
     }
     .list-item {
         text-decoration: none;
-        border: 1px solid black;
     }
 
     .image-inside{
@@ -319,4 +357,3 @@ footer{
         border: 1px solid rgb(0, 0, 0);s
     }
 }
-
