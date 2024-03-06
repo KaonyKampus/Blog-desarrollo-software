@@ -8,6 +8,7 @@
 
 body {
     background-color: rgb(0, 0, 0);
+    padding: 0%;
 }
 
 .nav-bar {
@@ -44,12 +45,11 @@ body {
     margin: 42px 100px 100px 100px;
     gap: 150px;
     border: 1px solid rgb(0, 0, 0);
-
 }
 
 .header {
     margin: 20px 20px 20px 20px;
-    width: 700px;
+    width: 1000px;
     text-align: center;
     border:1px solid rgb(0, 0, 0);
     border-radius: 3px;
@@ -76,6 +76,8 @@ body {
 
 .paragraph {
     margin: 15px;
+    text-align: justify;
+    text-align: left;
 }
 
 .image-inside {
@@ -98,6 +100,7 @@ footer{
 .paragrap-foot{
     text-align: center;
     padding:20px;
+
 }
 
 .img-box {
@@ -130,8 +133,17 @@ footer{
         font-style: normal;
         font-size: 30px;
         text-shadow: 3px 4px 0px rgba(98,88,88,0.53);
-    
     } 
+
+    .main-container {
+        background-color: aliceblue;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        margin: 42px 80px 80px 80px;
+        gap: 150px;
+        border: 1px solid rgb(0, 0, 0);
+    }
 }
 
 @media screen and (max-width: 500px){
@@ -145,8 +157,16 @@ footer{
         font-style: normal;
         font-size: 25px;
         text-shadow: 3px 4px 0px rgba(98,88,88,0.53);
-    
-    } 
+    }
+    .main-container {
+        background-color: aliceblue;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        margin: 42px 60px 60px 60px;
+        gap: 150px;
+        border: 1px solid rgb(0, 0, 0);
+    }
 
 
 }
@@ -162,13 +182,21 @@ footer{
         font-style: normal;
         font-size: 18px;
         text-shadow: 3px 4px 0px rgba(98,88,88,0.53);
-    
     } 
+    .main-container {
+        background-color: aliceblue;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        margin: 42px 40px 40px 40px;
+        gap: 150px;
+        border: 1px solid rgb(0, 0, 0);
+    }
 }
 
 @media screen and (max-width: 300px){
     .image-inside{
-        width: 120px;
+        width: 100px;
     }
     .main-title {
         margin: 30px 30px 60px 30px;
@@ -178,4 +206,36 @@ footer{
         font-size: 16px;
         text-shadow: 3px 4px 0px rgba(98,88,88,0.53);
     } 
+    .main-container {
+        background-color: aliceblue;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        margin: 42px 20px 20px 20px;
+        gap: 150px;
+        border: 1px solid rgb(0, 0, 0);
+    }
+}
+
+@media screen and (max-width: 300px){
+    .image-inside{
+        width: 100px;
+    }
+    .main-title {
+        margin: 30px 30px 60px 30px;
+        font-family: "Madimi One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 16px;
+        text-shadow: 3px 4px 0px rgba(98,88,88,0.53);
+    } 
+    .main-container {
+        background-color: aliceblue;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        margin: 42px 15px 15px 15px;
+        gap: 150px;
+        border: 1px solid rgb(0, 0, 0);
+    }
 }
