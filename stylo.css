@@ -61,7 +61,6 @@ body {
     font-weight: 400;
     font-style: normal;
     font-size: 50px;
-    text-shadow: 3px 4px 0px rgba(98,88,88,0.53);
 
 }
 
@@ -81,7 +80,7 @@ body {
 }
 
 .image-inside {
-    width: 300px;
+    width: 400px;
     margin-bottom: 20px;
 }
 
@@ -119,10 +118,25 @@ footer{
 .icon:hover{
     transform: translate(10px, 10px);
 }
+//////////////////////////////////////////////////////////
 
+@media  (max-width: 600px){
+    .nav-list{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        text-decoration: none;
+        list-style-type: none;
+        font-family: "Madimi One", sans-serif;
+        font-weight: 400;
+        color: aliceblue;
+    }
 
+    .list-item {
+        text-decoration: none;
+        border: 1px solid black;
+    }
 
-@media screen and (max-width: 600px){
     .image-inside{
         width: 180px;
     }
@@ -132,7 +146,6 @@ footer{
         font-weight: 400;
         font-style: normal;
         font-size: 30px;
-        text-shadow: 3px 4px 0px rgba(98,88,88,0.53);
     } 
 
     .main-container {
@@ -146,7 +159,23 @@ footer{
     }
 }
 
-@media screen and (max-width: 500px){
+@media  (max-width: 500px){
+    .nav-list{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        text-decoration: none;
+        list-style-type: none;
+        font-family: "Madimi One", sans-serif;
+        font-weight: 400;
+        color: aliceblue;
+    }
+
+    .list-item {
+        text-decoration: none;
+        border: 1px solid black;
+    }
+
     .image-inside{
         width: 160px;
     }
@@ -156,7 +185,6 @@ footer{
         font-weight: 400;
         font-style: normal;
         font-size: 25px;
-        text-shadow: 3px 4px 0px rgba(98,88,88,0.53);
     }
     .main-container {
         background-color: aliceblue;
@@ -171,17 +199,30 @@ footer{
 
 }
 
-@media screen and (max-width: 400px){
+@media (max-width: 400px){
+    .nav-list{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        text-decoration: none;
+        list-style-type: none;
+        font-family: "Madimi One", sans-serif;
+        font-weight: 400;
+        color: aliceblue;
+    }
+    .list-item {
+        text-decoration: none;
+        border: 1px solid black;
+    }
     .image-inside{
         width: 140px;
     }
     .main-title {
-        margin: 30px 30px 60px 30px;
+        margin: 20px 20px 60px 20px;
         font-family: "Madimi One", sans-serif;
         font-weight: 400;
         font-style: normal;
         font-size: 18px;
-        text-shadow: 3px 4px 0px rgba(98,88,88,0.53);
     } 
     .main-container {
         background-color: aliceblue;
@@ -194,17 +235,31 @@ footer{
     }
 }
 
-@media screen and (max-width: 300px){
+@media (max-width: 300px){
+    .nav-list{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        text-decoration: none;
+        list-style-type: none;
+        font-family: "Madimi One", sans-serif;
+        font-weight: 400;
+        color: aliceblue;
+    }
+    .list-item {
+        text-decoration: none;
+        border: 1px solid black;
+    }
+
     .image-inside{
-        width: 100px;
+        width: 140px;
     }
     .main-title {
-        margin: 30px 30px 60px 30px;
+        margin: 20px 20px 60px 20px;
         font-family: "Madimi One", sans-serif;
         font-weight: 400;
         font-style: normal;
         font-size: 16px;
-        text-shadow: 3px 4px 0px rgba(98,88,88,0.53);
     } 
     .main-container {
         background-color: aliceblue;
@@ -217,17 +272,31 @@ footer{
     }
 }
 
-@media screen and (max-width: 200px){
+@media (max-width: 200px){
+    .nav-list{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        text-decoration: none;
+        list-style-type: none;
+        font-family: "Madimi One", sans-serif;
+        font-weight: 400;
+        color: aliceblue;
+    }
+    .list-item {
+        text-decoration: none;
+        border: 1px solid black;
+    }
+
     .image-inside{
-        width: 100px;
+        width: 140px;
     }
     .main-title {
-        margin: 30px 30px 60px 30px;
+        margin: 20px 20px 60px 20px;
         font-family: "Madimi One", sans-serif;
         font-weight: 400;
         font-style: normal;
         font-size: 16px;
-        text-shadow: 3px 4px 0px rgba(98,88,88,0.53);
     } 
     .main-container {
         background-color: aliceblue;
@@ -239,3 +308,4 @@ footer{
         border: 1px solid rgb(0, 0, 0);
     }
 }
+
