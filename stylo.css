@@ -70,7 +70,7 @@ body {
     justify-content: center;
     text-align: center;
     display: flex;
-    margin: 52.5px 100px 100px 100px;
+    margin: 52.5px 100px 0px 100px;
     gap: 150px;
     border: 1px solid rgb(0, 0, 0);
 }
@@ -126,7 +126,7 @@ footer{
 
 .paragrap-foot{
     text-align: center;
-    padding:20px;
+    padding:20px 20px 20px 20px;
 
 }
 
@@ -194,6 +194,10 @@ footer{
         gap: 150px;
         border: 1px solid rgb(0, 0, 0);
     }
+    .paragrap-foot{
+        text-align: center;
+        padding:20px 0px 20px 0px;
+    }
 }
 
 /***************medida dispositivos de 500px*******************/
@@ -237,6 +241,10 @@ footer{
         margin: 52.5px 50px 0px 50px;
         gap: 150px;
         border: 1px solid rgb(0, 0, 0);
+    }
+    .paragrap-foot{
+        text-align: center;
+        padding:20px 0px 20px 0px;
     }
 
 
@@ -282,6 +290,10 @@ footer{
         gap: 150px;
         border: 1px solid rgb(0, 0, 0);
     }
+    .paragrap-foot{
+        text-align: center;
+        padding:20px 0px 20px 0px;
+    }
 }
 
 /***************medida dispositivos de 300px*******************/
@@ -325,6 +337,11 @@ footer{
         gap: 150px;
         border: 1px solid rgb(0, 0, 0);
     }
+
+    .paragrap-foot{
+        text-align: center;
+        padding:20px 0px 20px 0px;
+    }
 }
 
 /***************medida dispositivos de 200px*******************/
@@ -367,5 +384,10 @@ footer{
         margin: 52.5px 5px 0px 5px;
         gap: 150px;
         border: 1px solid rgb(0, 0, 0);s
+    }
+
+    .paragrap-foot{
+        text-align: center;
+        padding:20px 0px 20px 0px;
     }
 }
