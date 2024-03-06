@@ -140,7 +140,7 @@ footer{
         justify-content: center;
         text-align: center;
         display: flex;
-        margin: 42px 80px 80px 80px;
+        margin: 42px 70px 0px 70px;
         gap: 150px;
         border: 1px solid rgb(0, 0, 0);
     }
@@ -163,7 +163,7 @@ footer{
         justify-content: center;
         text-align: center;
         display: flex;
-        margin: 42px 60px 60px 60px;
+        margin: 42px 50px 0px 50px;
         gap: 150px;
         border: 1px solid rgb(0, 0, 0);
     }
@@ -188,7 +188,7 @@ footer{
         justify-content: center;
         text-align: center;
         display: flex;
-        margin: 42px 40px 40px 40px;
+        margin: 42px 30px 0px 30px;
         gap: 150px;
         border: 1px solid rgb(0, 0, 0);
     }
@@ -211,13 +211,13 @@ footer{
         justify-content: center;
         text-align: center;
         display: flex;
-        margin: 42px 20px 20px 20px;
+        margin: 42px 10px 0px 10px;
         gap: 150px;
         border: 1px solid rgb(0, 0, 0);
     }
 }
 
-@media screen and (max-width: 300px){
+@media screen and (max-width: 200px){
     .image-inside{
         width: 100px;
     }
@@ -234,7 +234,7 @@ footer{
         justify-content: center;
         text-align: center;
         display: flex;
-        margin: 42px 15px 15px 15px;
+        margin: 42px 5px 0px 5px;
         gap: 150px;
         border: 1px solid rgb(0, 0, 0);
     }
