@@ -33,6 +33,10 @@ body {
     color: aliceblue;
 }
 
+.link-list {
+    text-decoration: none;
+    color: aliceblue;
+}
 .list-item {
     text-decoration: none;
 }
@@ -118,8 +122,11 @@ footer{
 .icon:hover{
     transform: translate(10px, 10px);
 }
-//////////////////////////////////////////////////////////
 
+
+
+
+/***************medida dispositivos de 600px*******************/
 @media  (max-width: 600px){
     .nav-list{
         display: flex;
@@ -159,6 +166,7 @@ footer{
     }
 }
 
+/***************medida dispositivos de 500px*******************/
 @media  (max-width: 500px){
     .nav-list{
         display: flex;
@@ -199,6 +207,7 @@ footer{
 
 }
 
+/***************medida dispositivos de 400px*******************/
 @media (max-width: 400px){
     .nav-list{
         display: flex;
@@ -235,6 +244,7 @@ footer{
     }
 }
 
+/***************medida dispositivos de 300px*******************/
 @media (max-width: 300px){
     .nav-list{
         display: flex;
@@ -272,6 +282,7 @@ footer{
     }
 }
 
+/***************medida dispositivos de 200px*******************/
 @media (max-width: 200px){
     .nav-list{
         display: flex;
@@ -305,7 +316,7 @@ footer{
         display: flex;
         margin: 42px 5px 0px 5px;
         gap: 150px;
-        border: 1px solid rgb(0, 0, 0);
+        border: 1px solid rgb(0, 0, 0);s
     }
 }
 
