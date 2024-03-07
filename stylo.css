@@ -56,8 +56,6 @@ body {
     color: aliceblue;
     padding: 5px;
     border-bottom: 1px;
-    ;
-
 }
 
 .list-item {
@@ -112,7 +110,6 @@ body {
     box-shadow: 10px 11px 7px 0px rgba(176,176,176,1);
 }
 
-
 .who-container {
     display: flex;
     justify-content: center;
@@ -136,6 +133,7 @@ body {
 
 
 
+/*footer footer footer footer footer footer*/
 
 footer{
     background-color:  rgba(240, 109, 1, 0.863);
@@ -170,8 +168,6 @@ footer{
 .icon:hover{
     transform: translate(10px, 10px);
 }
-
-
 
 
 /***************medida dispositivos de 600px*******************/
