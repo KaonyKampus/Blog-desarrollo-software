@@ -239,6 +239,11 @@ footer{
     .image-inside{
         width: 230px;
     }
+
+    .filtrada {
+        filter: blur(5);
+    }
+
     .main-title {
         line-height: 1;
         margin: 30px 30px 60px 30px;
