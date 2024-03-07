@@ -239,6 +239,7 @@ footer{
         width: 230px;
     }
     .main-title {
+        line-height: 1;
         margin: 30px 30px 60px 30px;
         font-family: "Madimi One", sans-serif;
         font-weight: 400;
