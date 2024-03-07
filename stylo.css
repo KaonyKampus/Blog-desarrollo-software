@@ -256,6 +256,11 @@ footer{
         text-align: center;
         padding:20px 0px 20px 0px;
     }
+
+    .img-box {
+        gap: 15px;
+       }
+       
 }
 
 /***************medida dispositivos de 500px*******************/
@@ -346,7 +351,10 @@ footer{
         padding:20px 0px 20px 0px;
     }
 
-
+    .img-box {
+        gap: 15px;
+    }
+       
 }
 
 /***************medida dispositivos de 400px*******************/
@@ -427,6 +435,11 @@ footer{
         text-align: center;
         padding:20px 0px 20px 0px;
     }
+
+    .img-box {
+        gap: 15px;
+    }
+       
 }
 
 /***************medida dispositivos de 300px*******************/
@@ -509,6 +522,11 @@ footer{
         text-align: center;
         padding:20px 0px 20px 0px;
     }
+
+    .img-box {
+        gap: 15px;
+    }
+       
 }
 
 /***************medida dispositivos de 200px*******************/
@@ -592,4 +610,9 @@ footer{
         text-align: center;
         padding:20px 0px 20px 0px;
     }
+
+    .img-box {
+        gap: 15px;
+    }
+       
 }
