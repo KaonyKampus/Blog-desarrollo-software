@@ -108,6 +108,8 @@ body {
 .image-inside {
     width: 500px;
     margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 11px 7px 0px rgba(176,176,176,1);
 }
 
 
@@ -116,12 +118,17 @@ body {
     justify-content: center;
 }
 .container-who-image{
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: aliceblue;
+    overflow: hidden;
     width: 400px;
-    }
+    box-shadow: 10px 11px 7px 0px rgba(176,176,176,1);
+}
 
 .who-image{
     width: 100%;
-    }
+}
 
 .container-par-who{
     width: 400px;
