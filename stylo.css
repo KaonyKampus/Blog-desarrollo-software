@@ -139,7 +139,6 @@ footer{
     font-size: 15px;
     color: aliceblue;
     bottom: 0;
-    padding-top;
 }
 
 .paragrap-foot{
@@ -180,7 +179,7 @@ footer{
     .nav-list{
         display: flex;
         justify-content: center;
-        gap: 20px;
+        gap: 15px;
         text-decoration: none;
         list-style-type: none;
         font-family: "Madimi One", sans-serif;
@@ -262,7 +261,7 @@ footer{
     .nav-list{
         display: flex;
         justify-content: center;
-        gap: 20px;
+        gap: 15px;
         text-decoration: none;
         list-style-type: none;
         font-family: "Madimi One", sans-serif;
@@ -353,7 +352,7 @@ footer{
     .nav-list{
         display: flex;
         justify-content: center;
-        gap: 20px;
+        gap: 10px;
         text-decoration: none;
         list-style-type: none;
         font-family: "Madimi One", sans-serif;
@@ -433,7 +432,7 @@ footer{
     .nav-list{
         display: flex;
         justify-content: center;
-        gap: 20px;
+        gap: 10px;
         text-decoration: none;
         list-style-type: none;
         font-family: "Madimi One", sans-serif;
@@ -515,7 +514,7 @@ footer{
     .nav-list{
         display: flex;
         justify-content: center;
-        gap: 20px;
+        gap: 10px;
         text-decoration: none;
         list-style-type: none;
         font-family: "Madimi One", sans-serif;
@@ -560,17 +559,18 @@ footer{
         display: flex;
         margin: 52.5px 2.5px 0px 2.5px;
         gap: 150px;
-        border: 1px solid rgb(0, 0, 0);s
+        border: 1px solid rgb(0, 0, 0);
     }
 
     .who-container {
         display: flex;
         justify-content: center;
     }
+    
 
     .container-who-image{
-        width: 220px;
-        }
+        width:220px;
+    }
     
     .who-image{
         width: 100%;
