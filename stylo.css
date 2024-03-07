@@ -110,6 +110,26 @@ body {
     margin-bottom: 20px;
 }
 
+
+.who-container {
+    display: flex;
+    justify-content: center;
+}
+.container-who-image{
+    width: 400px;
+    }
+
+.who-image{
+    width: 100%;
+    }
+
+.container-par-who{
+    width: 400px;
+}
+
+
+
+
 footer{
     background-color:  rgba(240, 109, 1, 0.863);
     text-align: center;
@@ -278,6 +298,7 @@ footer{
         gap: 150px;
         border: 1px solid rgb(0, 0, 0);
     }
+
     .paragrap-foot{
         text-align: center;
         padding:20px 0px 20px 0px;
