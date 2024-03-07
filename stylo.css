@@ -98,13 +98,11 @@ body {
     font-style: normal;
     font-size: 20px;
     margin-top: 30px;
-    
 }
 
 .paragraph {
     margin: 15px;
     text-align: justify;
-    
 }
 
 .image-inside {
@@ -185,6 +183,20 @@ footer{
         font-size: 30px;
     } 
 
+    .subtitles{
+        font-family: "Madimi One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+        margin-top: 30px;
+    }
+
+    .paragraph {
+        font-size: 14px;
+        margin: 15px;
+        text-align: justify;
+    }
+
     .main-container {
         background-color: aliceblue;
         justify-content: center;
@@ -233,6 +245,22 @@ footer{
         font-style: normal;
         font-size: 25px;
     }
+
+    .subtitles{
+        font-family: "Madimi One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+        margin-top: 30px;
+    }
+
+    
+    .paragraph {
+        font-size: 14px;
+        margin: 15px;
+        text-align: justify;
+    }
+
     .main-container {
         background-color: aliceblue;
         justify-content: center;
@@ -280,7 +308,23 @@ footer{
         font-weight: 400;
         font-style: normal;
         font-size: 18px;
-    } 
+    }
+
+    .subtitles{
+        font-family: "Madimi One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+        margin-top: 30px;
+    }
+
+    
+    .paragraph {
+        font-size: 14px;
+        margin: 15px;
+        text-align: justify;
+    }
+
     .main-container {
         background-color: aliceblue;
         justify-content: center;
@@ -328,6 +372,22 @@ footer{
         font-style: normal;
         font-size: 16px;
     } 
+
+    .subtitles{
+        font-family: "Madimi One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+        margin-top: 30px;
+    }
+
+    
+    .paragraph {
+        font-size: 14px;
+        margin: 15px;
+        text-align: justify;
+    }
+
     .main-container {
         background-color: aliceblue;
         justify-content: center;
@@ -376,6 +436,22 @@ footer{
         font-style: normal;
         font-size: 16px;
     } 
+
+    .subtitles{
+        font-family: "Madimi One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+        margin-top: 30px;
+    }
+
+    
+    .paragraph {
+        font-size: 14px;
+        margin: 15px;
+        text-align: justify;
+    }
+
     .main-container {
         background-color: aliceblue;
         justify-content: center;
