@@ -75,6 +75,7 @@ body {
 
 .header {
     margin: 20px 20px 20px 20px;
+    padding-bottom: 20px;
     width: 1000px;
     text-align: center;
     border:1px solid rgb(0, 0, 0);
@@ -101,6 +102,10 @@ body {
 .paragraph {
     margin: 15px;
     text-align: justify;
+}
+
+.last {
+
 }
 
 .image-inside {
