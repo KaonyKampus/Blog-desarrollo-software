@@ -104,8 +104,9 @@ body {
     text-align: justify;
 }
 
-.last {
-
+.figure{
+    font-style: italic;
+    font-weight: bold;
 }
 
 .image-inside {
